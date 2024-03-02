@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 
-public interface ICaptionDataParser
+namespace CaptionsFileParser
 {
-    Queue<Caption> Parse(string pathToFile); // cambiar a matriz
+    public interface ICaptionDataParser
+    {
+        Queue<Caption> Parse(string pathToFile); // cambiar a matriz
+    }
 }

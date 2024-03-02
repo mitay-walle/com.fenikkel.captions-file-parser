@@ -1,5 +1,8 @@
 using System;
 
+namespace CaptionsFileParser
+{ 
+
 [Serializable]
 public struct Caption
 {
@@ -15,4 +18,5 @@ public struct Caption
         EntryTime = entryTime;
         ExitTime = exitTime;
     }
+}
 }
